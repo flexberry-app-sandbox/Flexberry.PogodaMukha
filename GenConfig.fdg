@@ -30,7 +30,7 @@
       "Java": true
     },
     "Docker": {
-      "Dockerfile": true,
+      "Dockerfile": false,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
